@@ -21,7 +21,8 @@ In this project, we are trying to generate COVID-19 diagnosis results: based on 
 
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
-[Source Code](https://github.com/UCSD-AI4H/COVID-CT)
+
+[UCSD COVID-CT](https://github.com/UCSD-AI4H/COVID-CT)
 
 
 
