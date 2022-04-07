@@ -8,6 +8,16 @@ In this project, we are trying to generate COVID-19 diagnosis results: based on 
 
 ## Datasets Description
 
+### Main
+
+1. **COVID19-CT**: 425 CT preprocessed 224*224 pixel size CT sliced images with binary class labels: “COVID” and “Non-COVID”. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/Images-processed)
+
+### Alternative
+
+1. **"Cats vs. Dogs"** [link](https://www.kaggle.com/competitions/dogs-vs-cats/overview)
+
+2. **"Breast Histopathology Images"** [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
+
 
 ## Resources
 
