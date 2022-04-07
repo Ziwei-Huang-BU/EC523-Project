@@ -1,5 +1,7 @@
 # EC523-Project
-Class Project for EC523 at Boston University
+EC523 class project
 
 
-This is a README.md file.
+# Re-implementation
+
+
