@@ -18,13 +18,19 @@ In this project, we are trying to generate COVID-19 diagnosis results: based on 
 
 2. **"Breast Histopathology Images"** [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
 
-### Data-Training 
+### Data Training and Testing
 
 By now, we use DenseNet169 as model backbone to implement the self-transfer learning (Self-Trans) with Moco. 
 In the Self-Trans: 
-pretraining by moco: 1. train the LUNA breast CT training data 2. train the COVID-CT data 
-final training, final tuning, and test: 
+**Densenet169 pretrained model** the pretrained DenseNet169 through ImageNet is imported directly. 
 
+**pretraining by moco:** 
+1. train the LUNA breast CT training data 
+2. train the COVID-CT data 
+
+**final training, final tuning, and test**: 
+
+Best models
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
 
