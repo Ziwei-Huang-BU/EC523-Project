@@ -26,7 +26,7 @@ In the Self-Trans process:
 
 **Densenet169 pretrained model** the pretrained DenseNet169 through ImageNet is imported directly. 
 
-**pretraining by moco:** 
+**pretraining through moco:** [run_moco.py](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/run_moco.py)
 1. train the LUNA breast CT training data 
 2. train the COVID-CT data 
 
