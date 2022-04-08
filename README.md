@@ -21,16 +21,17 @@ In this project, we are trying to generate COVID-19 diagnosis results: based on 
 ### Data Training and Testing
 
 By now, we use DenseNet169 as model backbone to implement the self-transfer learning (Self-Trans) with Moco. 
-In the Self-Trans: 
+
+In the Self-Trans process: 
+
 **Densenet169 pretrained model** the pretrained DenseNet169 through ImageNet is imported directly. 
 
 **pretraining by moco:** 
 1. train the LUNA breast CT training data 
 2. train the COVID-CT data 
 
-**final training, final tuning, and test**: 
+**final training, final tuning, and testing**: [Self_Trans_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/Self_Trans_Final_Training.ipynb)
 
-Best models
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
 
