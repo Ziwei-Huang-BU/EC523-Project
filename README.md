@@ -27,7 +27,7 @@ In the Self-Trans process:
 
 **pretraining through moco:** 
 
-***1. COVID-19 *** 
+***1. COVID-19*** 
 [moco_COVID.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/moco_pretrain/moco_COVID.ipynb)
 1. pretrain with Cifar-10 unlabeled dataset
 2. pretrain with LUNA breast CT training dataset
