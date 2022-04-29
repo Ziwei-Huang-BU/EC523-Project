@@ -8,30 +8,41 @@ In this project, we are trying to generate COVID-19 diagnosis results: based on 
 
 ## Datasets Description
 
-### Main
+1. **Cifar-10**: 
 
-1. **COVID19-CT**: 425 CT preprocessed 224*224 pixel size CT sliced images with binary class labels: “COVID” and “Non-COVID”. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/Images-processed)
+2. **LUNA-CT**: 
 
-### Alternative
+3. **COVID19-CT**: 425 CT preprocessed 224*224 pixel size CT sliced images with binary class labels: “COVID” and “Non-COVID”. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/Images-processed)
 
-1. **"Cats vs. Dogs"** [link](https://www.kaggle.com/competitions/dogs-vs-cats/overview)
-
-2. **"Breast Histopathology Images"** [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
+4. **"Breast Histopathology Images"** [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
 
 
 ## Data Training and Testing
 
-By now, we use DenseNet169 as model backbone to implement the self-transfer learning (Self-Trans) with Moco. 
+By now, we use Resnet-18 as model backbone to implement the self-transfer learning (Self-Trans) with Moco. 
 
 In the Self-Trans process: 
 
-**Densenet169 pretrained model** the pretrained DenseNet169 through ImageNet is imported directly. 
+**Resnet-18 model** the random initialized Resnet-18 is imported
 
-**pretraining through moco:** [run_moco.py](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/run_moco.py)
-1. train the LUNA breast CT training data 
-2. train the COVID-CT data 
+**pretraining through moco:** 
 
-**final training, final tuning, and testing**: [Self_Trans_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/Self_Trans_Final_Training.ipynb)
+***1. COVID-19 *** 
+[moco_COVID.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/moco_pretrain/moco_COVID.ipynb)
+1. pretrain with Cifar-10 unlabeled dataset
+2. pretrain with LUNA breast CT training dataset
+3. pretrain with the unlabeled COVID-CT dataset
+
+***2. IDC Breast Cancer*** 
+[moco_IDC.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/moco_pretrain/moco_IDC.ipynb)
+1. pretrain with Cifar-10 unlabeled dataset
+2. pretrain with unlabeled IDC dataset
+
+**Supervised Learning on Binary Classification Task: model final training, final tuning, and testing**:
+[EC523-Project/supervised_classification/COVID_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/COVID_Final_Training.ipynb
+
+[EC523-Project/supervised_classification/IDC_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/IDC_Final_Training.ipynb
+
 
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
