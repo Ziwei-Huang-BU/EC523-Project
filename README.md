@@ -1,4 +1,4 @@
-# EC523-Project: Leverage a Contrastive Self-Supervised Learning Framework: MoCo on Medical Images
+# EC523-Project: Leverage Momentum Contrast Learning (MoCo) on Medical Images
 Yihong Xu, Ziwei Huang, Qingyang Xu, Shuqiang Chen 
 
 ![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/pipeline.png)
