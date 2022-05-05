@@ -5,8 +5,9 @@ Yihong Xu, Ziwei Huang, Qingyang Xu, Shuqiang Chen
 
 
 ## Task Description
-In this project, we are trying to generate COVID-19 diagnosis results: based on patients’ unlabeled CT scan images, using self-supervised learning (Self-Trans) approach. Considering the less data-rich source on COVID related CT scans, the difficulty of this project will be building a highly efficient deep learning model, pretraining and fine tuning our network in our medical/diagnostic task. Besides reproducing the results as described in the [literature](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1), ....
+The goal of this project is to implement a contrastive self-supervised learning framework: Momentum Contrastive Learning (MoCo) [1] on unlabeled images to boost the performance of the supervised learning on binary pathological classification task: 1. COVID positive (“1”) and negative (“0”) results from COVID-19 lung CT scan. 2. Breast Cancer IDC positive (“1”) and negative (“0”) from Breast Cancer Histology tissue microscopy images. 
 
+The backbone network is chosen to be ResNet-18. We compare the different final performance of the model without MoCo pretraining and with different rounds of MoCo pertaining steps. 
 
 ## Datasets Description
 
