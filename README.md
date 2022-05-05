@@ -24,7 +24,7 @@ The goal of this project is to implement a contrastive self-supervised learning 
 
 ## Data Training and Testing
 
-By now,We choose Resnet-18 as model backbone network. 
+By now, We choose Resnet-18 as model backbone network. 
 
 In the MoCo-pretraining + supervised learning on binary classification task: 
 
