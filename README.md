@@ -11,7 +11,6 @@ The goal of this project is to implement a contrastive self-supervised learning 
 1. Pretraining using Momentum Contrastive learning (MoCo) with unlabeled datasets. 
 2. supervised transfer learning targeting on binary classification. 
 
-The backbone network is chosen to be ResNet-18.
 
 ## Datasets Description
 
@@ -25,9 +24,9 @@ The backbone network is chosen to be ResNet-18.
 
 ## Data Training and Testing
 
-By now, we use Resnet-18 as model backbone to implement the self-transfer learning (Self-Trans) with Moco. 
+By now,We choose Resnet-18 as model backbone network. 
 
-In the Self-Trans process: 
+In the MoCo-pretraining + supervised learning on binary classification task: 
 
 **Resnet-18 model** the random initialized Resnet-18 is imported
 
@@ -49,6 +48,10 @@ In the Self-Trans process:
 
 [IDC_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/IDC_Final_Training.ipynb)
 
+
+## Results 
+![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/covid-results.png)
+![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/idc_results.png)
 
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
