@@ -51,7 +51,8 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 
 ## Results 
 ![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/covid-results.png)
-![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/idc_results.png)
+
+![alt text](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/readme_figs/idc_results.jpg)
 
 ## Resources
 [Github Facebookresearch MOCO](https://github.com/facebookresearch/moco)
