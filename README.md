@@ -1,7 +1,7 @@
 # EC523-Project: Leverage a Contrastive Self-Supervised Learning Framework: MoCo on Medical Images
 Yihong Xu, Ziwei Huang, Qingyang Xu, Shuqiang Chen 
 
-
+![Project Pipeline](/EX523-Project/readme_figs/pipeline.png "Project Pipeline")
 
 
 ## Task Description
