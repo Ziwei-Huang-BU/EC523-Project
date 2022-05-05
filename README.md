@@ -15,14 +15,13 @@ The backbone network is chosen to be ResNet-18.
 
 ## Datasets Description
 
-1. **Cifar-10**: 
+1. **Cifar-10**: 60,000 32x32 color images in 10 classes, with 6000 images per class. [link](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-2. **LUNA-CT**: 
+2. **Lung Nodule Analysis (LUNA)**: 888 preprocessed 224x224 unlabeled **Covid unrelated** Lung CT images. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/baseline%20methods/Self-Trans/LUNA/train)
 
-3. **COVID19-CT**: 425 CT preprocessed 224*224 pixel size CT sliced images with binary class labels: “COVID” and “Non-COVID”. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/Images-processed)
+3. **COVID19-CT**: 425 preprocessed 224*224 **Covid related** lung CT sliced images with binary class labels: “COVID” and “Non-COVID”. [link](https://github.com/UCSD-AI4H/COVID-CT/tree/master/Images-processed)
 
-4. **"Breast Histopathology Images"** [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
-
+4. **"Breast Histopathology Images"** 5547 50x50 digital microscopy images patches of H&E-starined breast histopathology samples with binary labels: "IDC +" and "IDC -" [link](https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images/notebook)
 
 ## Data Training and Testing
 
