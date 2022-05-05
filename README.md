@@ -1,5 +1,7 @@
-# EC523-Projec: Leverage a Contrastive Self-Supervised Learning Framework: MoCo on Medical Images
-EC523 class project
+# EC523-Project: Leverage a Contrastive Self-Supervised Learning Framework: MoCo on Medical Images
+Yihong Xu, Ziwei Huang, Qingyang Xu, Shuqiang Chen 
+
+
 
 
 ## Task Description
