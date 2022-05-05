@@ -1,4 +1,4 @@
-# EC523-Project
+# EC523-Projec: Leverage a Contrastive Self-Supervised Learning Framework: MoCo on Medical Images
 EC523 class project
 
 
