@@ -60,6 +60,19 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 [UCSD COVID-CT](https://github.com/UCSD-AI4H/COVID-CT)
 
 
+## Reference
 
+@Article{he2020sample,
+  author  = {He, Xuehai and Yang, Xingyi and Zhang, Shanghang, and Zhao, Jinyu and Zhang, Yichen and Xing, Eric, and Xie,       Pengtao},
+  title   = {Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans},
+  journal = {medrxiv},
+  year    = {2020},
+}
 
+@Article{chen2020mocov2,
+  author  = {Xinlei Chen and Haoqi Fan and Ross Girshick and Kaiming He},
+  title   = {Improved Baselines with Momentum Contrastive Learning},
+  journal = {arXiv preprint arXiv:2003.04297},
+  year    = {2020},
+}
 
