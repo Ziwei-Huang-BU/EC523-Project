@@ -7,7 +7,11 @@ Yihong Xu, Ziwei Huang, Qingyang Xu, Shuqiang Chen
 ## Task Description
 The goal of this project is to implement a contrastive self-supervised learning framework: Momentum Contrastive Learning (MoCo) [1] on unlabeled images to boost the performance of the supervised learning on binary pathological classification task: 1. COVID positive (“1”) and negative (“0”) results from COVID-19 lung CT scan. 2. Breast Cancer IDC positive (“1”) and negative (“0”) from Breast Cancer Histology tissue microscopy images. 
 
-The backbone network is chosen to be ResNet-18. We compare the different final performance of the model without MoCo pretraining and with different rounds of MoCo pertaining steps. 
+**The training part contain two main training processes:**
+1. Pretraining using Momentum Contrastive learning (MoCo) with unlabeled datasets. 
+2. supervised transfer learning targeting on binary classification. 
+
+The backbone network is chosen to be ResNet-18.
 
 ## Datasets Description
 
