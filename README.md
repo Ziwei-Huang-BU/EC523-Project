@@ -31,7 +31,9 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 **Resnet-18 model** the random initialized Resnet-18 is imported
 
 **pretraining through moco:** 
+
 MoCo Method and structure through **using one GPU for simulating multiple GPUs parallel computing** partially modified from Resources [1].
+
 ***1. COVID-19*** 
 [moco_COVID.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/moco_pretrain/moco_COVID.ipynb)
 1. pretrain with Cifar-10 unlabeled dataset
