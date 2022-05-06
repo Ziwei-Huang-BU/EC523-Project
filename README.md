@@ -32,8 +32,6 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 
 **pretraining through moco:** 
 
-MoCo Method and structure through **using one GPU for simulating multiple GPUs parallel computing** partially modified from Resources [1].
-
 ***1. COVID-19*** 
 [moco_COVID.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/moco_pretrain/moco_COVID.ipynb)
 1. pretrain with Cifar-10 unlabeled dataset
@@ -46,6 +44,9 @@ MoCo Method and structure through **using one GPU for simulating multiple GPUs p
 2. pretrain with unlabeled IDC dataset
 
 **Supervised Learning on Binary Classification Task: model final training, final tuning, and testing**:
+
+**code cited**:
+
 [COVID_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/COVID_Final_Training.ipynb)
 
 [IDC_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/IDC_Final_Training.ipynb)
@@ -61,6 +62,9 @@ MoCo Method and structure through **using one GPU for simulating multiple GPUs p
 
 2.[UCSD COVID-CT](https://github.com/UCSD-AI4H/COVID-CT)
 
+## Code Cited 
+MoCo Method and structure through **using one GPU for simulating multiple GPUs parallel computing** is partially modified from Resources [1].
+COVID-CT dataset Dataloader and testing part are referred or partially modified from Resources [2].
 
 ## Reference
 
