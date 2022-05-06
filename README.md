@@ -64,6 +64,7 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 
 ## Code Cited 
 MoCo Method and structure through **using one GPU for simulating multiple GPUs parallel computing** is partially modified from Resources [1].
+
 COVID-CT dataset Dataloader and testing part are referred or partially modified from Resources [2].
 
 ## Reference
