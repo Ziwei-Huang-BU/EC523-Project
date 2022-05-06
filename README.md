@@ -45,8 +45,6 @@ In the MoCo-pretraining + supervised learning on binary classification task:
 
 **Supervised Learning on Binary Classification Task: model final training, final tuning, and testing**:
 
-**code cited**:
-
 [COVID_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/COVID_Final_Training.ipynb)
 
 [IDC_Final_Training.ipynb](https://github.com/Ziwei-Huang-BU/EC523-Project/blob/main/supervised_classification/IDC_Final_Training.ipynb)
